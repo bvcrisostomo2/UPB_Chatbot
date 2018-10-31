@@ -1,0 +1,130 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>   
+   <category>
+      <pattern> DATE </pattern>      
+      <template>
+         Noong Enero 19 1982
+      </template>
+   </category>
+
+   <category>
+      <pattern> UNIONBANK PLAZA </pattern>
+      <that>Maraming UnionBank dito sa Pilipinas ano ba ang tinutukoy mo?</that>      
+      <template>
+         Matatagpuan ang Headquarters ng UnionBank sa Meralco Ave San Antonio Pasig Metro Manila
+      </template>
+   </category>
+ 
+   <category>
+      <pattern> UNIONBANK HEADQUARTERS </pattern>
+      <that>Maraming UnionBank dito sa Pilipinas ano ba ang tinutukoy mo?</that>      
+      <template>
+         <srai>UNIONBANK PLAZA</srai>
+      </template>
+   </category>
+
+<topic name="ANO">
+   <category>
+      <pattern> PAKIKIPAGKAPWA </pattern>      
+      <template>
+        <random>
+           <li>Nanggaling sa salitang kapwa isa sa pangunahing katangian ng mga filipino</li>
+           <li>Dito makikita kung paano makisalamuha ang UnionBank sa communidad nilang mga customers partners employees and shareholders</li>
+           <li>It is about Ubuntu; ang pangunahing katangian ng UnionBank</li>
+        </random>         
+      </template>
+   </category>
+
+   <category>
+      <pattern> GOBEYOND </pattern>            
+      <template>
+         Ito ay company sponsored volunteer program na sinimulan noong 2014. Gumagawa ng mga proyekto ang mga volunteers para sa kalikasan edukasyon at kabuhayan ng mga tao.
+      </template>
+   </category>
+
+   <category>
+      <pattern> U:Hac Manila </pattern>            
+      <template>
+         Naganap noong Agosto 27-28 2016 sa Megatrade Hall 3 SM Megamall. Dito mag titipon tipon ang mga developers upang gumawa or mag isip ng mga proyekto na makakatulong o makakapagpabago sa ating mundo. Proyekto tulad ng apps robotics etc.
+      </template>
+   </category>
+</topic>
+
+<topic name="SAAN">
+   <category>
+      <pattern> UNIONBANK </pattern>      
+      <template>
+         Maraming UnionBank dito sa Pilipinas ano ba ang tinutukoy mo?
+      </template>
+   </category>
+
+   <category>
+      <pattern> UNIONBANK PLAZA </pattern>      
+      <template>
+         Matatagpuan ang Headquarters ng UnionBank sa Meralco Ave San Antonio Pasig Metro Manila
+      </template>
+   </category>
+
+   <category>
+      <pattern> UNIONBANK HEADQUARTERS </pattern>      
+      <template>
+         <srai>UNIONBANK PLAZA</srai>
+      </template>
+   </category>
+</topic>
+
+<!-- Date -->
+   <category>
+      <pattern> KELAN NAITATAG ANG UNIONBANK </pattern>      
+      <template>
+         <srai>DATE</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> KAILAN NAITATAG ANG UNIONBANK </pattern>      
+      <template>
+         <srai>DATE</srai>
+      </template>
+   </category>
+<!-- Place -->
+   <category>
+      <pattern> SAAN MATATAGPUAN ANG * </pattern>      
+      <template>
+         <think><set name="topic">SAAN</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> SAAN MAKIKITA ANG * </pattern>      
+      <template>
+         <think><set name="topic">SAAN</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> SAAN MAHAHANAP ANG * </pattern>      
+      <template>
+         <think><set name="topic">SAAN</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> SAAN ANG * </pattern>      
+      <template>
+         <think><set name="topic">SAAN</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+<!--What-->
+   <category>
+      <pattern> ANO ANG * </pattern>      
+      <template>
+         <think><set name="topic">ANO</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+</aiml>

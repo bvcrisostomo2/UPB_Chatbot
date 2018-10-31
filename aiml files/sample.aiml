@@ -1,0 +1,221 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+	<category>
+		<pattern> HELP </pattern>
+
+		<template>
+		Good day Unionbanker! Here are the things you need to know about UnionBank's Salary Loan Program.<br/>
+		This is an interest bearing loan which intends to help the employees finance their personal needs (e.g. tuition fee, medical payments, travel fund, etc. except for investment purposes).<br/>
+		To know more about UnionBank's Salary Loan, please select from the options below.<br/>
+		Type any of the following:<br/>
+		ELI - Eligibility<br/>
+		MAX - Maximum Loanable Amount<br/>
+		TER - Loan Terms<br/>
+		PAY - Loan Payment<br/>
+		AVM - Loan Availment<br/>
+		RVM - Loan Re-Availment<br/>
+		APP - Loan Application<br/>
+		TIM - Loan Timetable<br/>
+		TNX - Exit / End U-Bot Chat<br/>
+		Thank you for using U-Bot.<br/>
+		For more info, please contact ubot@unionbankph.com
+		</template>
+	</category>
+
+	<category>
+		<pattern> ELI </pattern>
+		<template>
+		 - You must be at least 1 year employed by the bank.<br/>
+		 - You must have a 30% credit ratio (net monthly salary) considering all other existing loans.<br/>
+		 - You must have a minimum Performance Appraisal Rating (PAR) of Consistently Meets (CM) for the past two (2) years.
+		</template>
+	</category>
+
+	<category>
+		<pattern> MAX </pattern>
+
+		<template>
+		Your maximum loanable amount is calculated based on the cash equivalent of your existing leave credits and retirement benefits. If you are an employee of UnionBank for at least six years, you can avail of a maximum loanable amount equivalent to your five-month salary.
+		</template>
+	</category>
+
+	<category>
+		<pattern> TER </pattern>
+
+		<template>
+		The payment period of your Salary Loan ranges from a minimum of one year to a maximum of three years. You can select how long you will pay the salary loan based on the following terms: <br/>
+		- 12 Months or 1 year<br/>
+		- 18 Months or 1 year and 6 months<br/>
+		- 24 Months or 2 years<br/>
+		- 30 Months or 2 years and 6 months<br/>
+		- 36 Months or 3 years
+		</template>
+	</category>
+
+	<category>
+		<pattern> PAY </pattern>
+
+		<template>
+		Your Salary Loan shall be payable through salary/payroll deduction every 13th and 28th of the month. <br/>
+		Did I answer your question correctly? Type Yes or No.
+		</template>
+	</category>
+
+	<category>
+		<pattern> AVM </pattern>
+
+		<template>
+		You are allowed to avail a maximum of three outstanding salary loans provided that the total loaned amount does not exceed the equivalent amount of your total sick leaves and retirement benefits.
+		</template>
+	</category>
+
+	<category>
+		<pattern> RVM </pattern>
+
+		<template>
+		You can re-avail of a salary loan provided that you have paid at least twelve (12) months from the release date of loan proceeds.
+		</template>
+	</category>
+
+	<category>
+		<pattern> APP </pattern>
+
+		<template>
+		To apply for a salary loan, you may visit Great2BeU website. Go to My Benefits, log in using your ID number and Password.
+		</template>
+	</category>
+
+	<category>
+		<pattern> TIM </pattern>
+
+		<template>
+		The average processing time for your Salary Loan application is 2 to 3 days.
+		</template>
+	</category>
+
+	<category>
+		<pattern> TNX </pattern>
+
+		<template>
+		Exit
+		</template>
+	</category>
+
+	<category>
+		<pattern> * </pattern>
+		<template>
+			<think><set name="topic"><star/></set></think>
+			<condition name="topic" value="eligibility">
+				<srai>ELI</srai>
+			</condition>
+			<condition name="topic" value="eligible">
+				<srai>ELI</srai>
+			</condition>
+			<condition name="topic" value="loan">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="loan amount">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="max loan">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="max loan amount">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="max loanable amount">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="maximum loan amount">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="maximum loanable amount">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="maximum loanable amount">
+				<srai>MAX</srai>
+			</condition>
+			<condition name="topic" value="loan payment">
+				<srai>TER</srai>
+			</condition>
+			<condition name="topic" value="loan payment terms">
+				<srai>TER</srai>
+			</condition>
+			<condition name="topic" value="terms of loan payment">
+				<srai>TER</srai>
+			</condition>
+			<condition name="topic" value="terms for loan payment">
+				<srai>TER</srai>
+			</condition>
+			<condition name="topic" value="loan terms">
+				<srai>TER</srai>
+			</condition>
+			<condition name="topic" value="loan payments">
+				<srai>PAY</srai>
+			</condition>
+			<condition name="topic" value="availment">
+				<srai>AVM</srai>
+			</condition>
+			<condition name="topic" value="loan availment">
+				<srai>AVM</srai>
+			</condition>
+
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHAT IS THE *</pattern>
+
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHAT ARE THE *</pattern>
+
+		<template>
+			<srai><star/></srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>AM I *</pattern>
+
+		<template>
+			<think><set name="topic"><star/></set></think>
+			<condition name="topic" value="eligible">
+				<srai>ELI</srai>
+			</condition>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOW DO I * </pattern>
+
+		<template>
+			<think><set name="topic"><star/></set></think>
+			<condition name="topic" value="pay">
+				<srai>PAY</srai>
+			</condition>
+			<condition name="topic" value="avail">
+				<srai>AVM</srai>
+			</condition>
+			<condition name="topic" value="apply">
+				<srai>APP</srai>
+			</condition>
+		</template>
+	</category>
+
+	<category>
+		<pattern>YES</pattern>
+		<that> * did i answer your question correctly * </that>
+		<template>Good to hear! Do you still have any questions? Type help to list all of the topics.</template>
+	</category>
+
+	<category>
+		<pattern>NO</pattern>
+		<that> * did i answer your question correctly * </that>
+		<template>A representative from the HR department will attend to your concern shortly.</template>
+	</category>
+</aiml>

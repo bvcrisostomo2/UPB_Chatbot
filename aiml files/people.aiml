@@ -1,0 +1,384 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+<topic name="SINO SI">
+   <category>
+      <pattern> JUSTO A ORTIZ </pattern>      
+      <template>
+         <random>
+            <li>Si Justo A. Ortiz ang kasalukuyang Chairman at CEO ng UnionBank</li>
+            <li>Siya ang kasalukuyang Chairman at CEO ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Jon Ramon M Aboitiz </pattern>      
+      <template>
+         <random>
+            <li>Si Jon Ramon M. Aboitiz ang kasalukuyang Vice Chairman Director ng UnionBank</li>
+            <li>Siya ang kasalukuyang Vice Chairman Director ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Edwin R Bautista </pattern>      
+      <template>         
+         <random>
+            <li>Si Edwin R. Bautista ang kasalukuyang presidente ng UnionBank</li>
+            <li>Siya ang kasalukuyang presidente ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Erramon Isidro M Aboitiz </pattern>      
+      <template>        
+         <random>
+            <li>Si Erramon Isidro M. Aboitiz ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Stephen George A Paradies </pattern>      
+      <template>         
+         <random>
+            <li>Si Stephen George A. Paradies ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Juan Antonio E Bernad </pattern>      
+      <template>         
+         <random>
+            <li>Si Juan Antonio E. Bernad ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Amado D Valdez </pattern>      
+      <template>         
+         <random>
+            <li>Si Amado D. Valdez ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Sabin M Aboitiz </pattern>      
+      <template>        
+        <random>
+            <li>Si Sabin M. Aboitiz ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Luis Miguel O Aboitiz </pattern>      
+      <template>          
+          <random>
+            <li>Si Luis Miguel O. Aboitiz ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Mona Lisa B Dela Cruz </pattern>      
+      <template>         
+         <random>
+            <li>Si Mona Lisa B. Dela Cruz ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Emmanuel F Dooc </pattern>      
+      <template>         
+         <random>
+            <li>Si Emmanuel F. Dooc ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Nina Perpetua D Aguas </pattern>      
+      <template>         
+         <random>
+            <li>Si Nina Perpetua D. Aguas ay kasalukuyang direktor ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Carlos B Raymond Jr </pattern>      
+      <template>         
+         <random>
+            <li>Si Carlos B. Raymond Jr. ay kasalukuyang independent director ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+
+   <category>
+      <pattern> Dr Francisco S A Sandejas </pattern>      
+      <template>         
+         <random>
+            <li>Si Carlos B. Raymond Jr. ay kasalukuyang independent director ng UnionBank</li>
+            <li>Siya ang isa sa mga kasalukuyang direktor ng UnionBank</li>
+         </random>
+      </template>
+   </category>
+</topic>
+
+<topic name="SINO ANG">
+   <category>
+      <pattern> CEO NG UNIONBANK </pattern>      
+      <template>
+         Si Justo A. Ortiz ang kasalukuyang Chairman at CEO ng UnionBank
+      </template>
+   </category>
+
+    <category>
+      <pattern> VICE CHAIRMAN NG UNIONBANK </pattern>      
+      <template>
+         Si Jon Ramon M. Aboitiz ang kasalukuyang Vice Chairman Director ng UnionBank
+      </template>
+   </category>
+
+   <category>
+        <pattern> PRESIDENT NG UNIONBANK </pattern>      
+        <template>
+           Si Edwin R. Bautista ang kasalukuyang presidente ng UnionBank
+        </template>
+   </category>
+
+   <category>
+        <pattern> PRESIDENTE NG UNIONBANK </pattern>      
+        <template>
+           Si Edwin R. Bautista ang kasalukuyang presidente ng UnionBank
+        </template>
+   </category>
+
+   <category>
+      <pattern> DIRECTOR NG UNIONBANK </pattern>      
+      <template>
+         Sina Erramon Isidro M. Aboitiz / Stephen George A. Paradies / Juan Antonio E. Bernad / Amado D. Valdez / Sabin M. Aboitiz / Luis Miguel O. Aboitiz / Mona Lisa B. Dela Cruz / Emmanuel F. Dooc at Nina Perpetua D. Aguas ang kasalukuyang mga direktor ng Unionbank habang sina Carlos B. Raymond Jr. at Dr. Francisco S.A. Sandejas ay kasalukuyang mga independent direktor ng UnionBank
+      </template>
+   </category>
+
+   <category>
+      <pattern> DIREKTOR NG UNIONBANK </pattern>      
+      <template>
+         Sina Erramon Isidro M. Aboitiz / Stephen George A. Paradies / Juan Antonio E. Bernad / Amado D. Valdez / Sabin M. Aboitiz / Luis Miguel O. Aboitiz / Mona Lisa B. Dela Cruz / Emmanuel F. Dooc at Nina Perpetua D. Aguas ang kasalukuyang mga direktor ng Unionbank habang sina Carlos B. Raymond Jr. at Dr. Francisco S.A. Sandejas ay kasalukuyang mga independent direktor ng UnionBank
+      </template>
+   </category>
+</topic>
+
+<!-- Questions -->
+   <category>
+      <pattern>SINO SI * </pattern>      
+      <template>
+         <think><set name="topic">SINO SI</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>SINO ANG * </pattern>      
+      <template>
+         <think><set name="topic">SINO ANG</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>KILALA MO BA ANG * </pattern>      
+      <template>
+         <think><set name="topic">SINO ANG</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>KILALA MO BA SI * </pattern>      
+      <template>
+         <think><set name="topic">SINO SI</set></think>
+         <srai><star></star></srai>
+      </template>
+   </category>
+</aiml>
+<!--
+   <category>
+      <pattern> CEO </pattern>      
+      <template>
+         Si Justo A. Ortiz ang kasalukuyang Chairman at CEO ng UnionBank
+      </template>
+   </category>
+
+   <category>
+      <pattern> _ CEO * </pattern>      
+      <template>
+         <srai>CEO</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> _ CEO </pattern>      
+      <template>
+         <srai>CEO</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> CEO *</pattern>      
+      <template>
+         <srai>CEO</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> VICE CHAIRMAN </pattern>      
+      <template>
+         Si Jon Ramon M. Aboitiz ang kasalukuyang Vice Chairman Director ng UnionBank
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ VICE CHAIRMAN * </pattern>      
+      <template>
+         <srai>VICE CHAIRMAN</srai>
+      </template>
+   </category>
+   
+
+   <category>
+      <pattern>_ VICE CHAIRMAN </pattern>      
+      <template>
+         <srai>VICE CHAIRMAN</srai>
+      </template>
+   </category>
+
+     <category>
+      <pattern> VICE CHAIRMAN * </pattern>      
+      <template>
+         <srai>VICE CHAIRMAN</srai>
+      </template>
+   </category>
+
+ 	<category>
+      <pattern> PRESIDENT </pattern>      
+      <template>
+         Si Edwin R. Bautista ang kasalukuyang presidente ng UnionBank
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ PRESIDENT </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ PRESIDENT * </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> PRESIDENT * </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ PRESIDENTE </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> PRESIDENTE * </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ PRESIDENTE * </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> PRESIDENTE  </pattern>      
+      <template>
+         <srai>PRESIDENT</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> DIRECTOR </pattern>      
+      <template>
+         Sina Erramon Isidro M. Aboitiz / Stephen George A. Paradies / Juan Antonio E. Bernad / Amado D. Valdez / Sabin M. Aboitiz / Luis Miguel O. Aboitiz / Mona Lisa B. Dela Cruz / Emmanuel F. Dooc at Nina Perpetua D. Aguas ang kasalukuyang mga direktor ng Unionbank habang sina Carlos B. Raymond Jr. at Dr. Francisco S.A. Sandejas ay kasalukuyang mga independent direktor ng UnionBank
+      </template>
+   </category>
+
+   <category>
+      <pattern> _ DIRECTOR * </pattern>      
+      <template>
+         <srai>DIRECTOR</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> _ DIRECTOR </pattern>      
+      <template>
+         <srai>DIRECTOR</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> DIRECTOR * </pattern>      
+      <template>
+         <srai>DIRECTOR</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ DIREKTOR * </pattern>      
+      <template>
+         <srai>DIRECTOR</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>DIREKTOR * </pattern>      
+      <template>
+         <srai>DIRECTOR</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>_ DIREKTOR </pattern>      
+      <template>
+         <srai>DIRECTOR</srai>
+      </template>
+   </category>   
+-->

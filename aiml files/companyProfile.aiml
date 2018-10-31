@@ -1,0 +1,192 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+   <category>
+      <pattern> MISSION </pattern>      
+      <template>
+         Ang mission vision ng UnionBank ay nahahati sa tatlong parte. Maaring pumili sa mga ito: <br/>FOCUS<br/>CREDO<br/>UNIONBANK DNA
+      </template>      
+   </category>
+
+   <category>
+      <pattern> VISION </pattern>      
+      <template>
+         Ang mission vision ng UnionBank ay nahahati sa tatlong parte. Maaring pumili sa mga ito: <br/>FOCUS<br/>CREDO<br/>UNIONBANK DNA
+      </template>      
+   </category>
+
+   <category>
+      <pattern> MISYON </pattern>      
+      <template>
+         <srai>MISSION</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> MISYON NG UNIONBANK </pattern>      
+      <template>
+         <srai>MISSION</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> MISSION NG UNIONBANK </pattern>      
+      <template>
+         <srai>MISSION</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> VISYON </pattern>      
+      <template>
+         <srai>VISION</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> VISYON NG UNIONBANK </pattern>      
+      <template>
+         <srai>VISION</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> VISION NG UNIONBANK </pattern>      
+      <template>
+         <srai>VISION</srai>
+      </template>      
+   </category>      
+
+   <category>
+      <pattern> FOCUS </pattern>      
+      <template>
+         <think><set name = "topic">FOCUS</set></think>
+         The Bank corporate vision is to become one of the top three universal banks in the Philippines in respect to market capitalization profits and customer coverage grounded on its purpose of Making the Diff by connecting and enabling communities through Smart Banking in the spirit of UBUNTU which means community building. To achieve this vision UnionBank has adopted five key strategic imperatives referred to as FOCUS.<br/> (Pumili ng isang aksyon: IPAGPATULOY / IBANG TANONG)
+      </template>      
+   </category>
+
+<topic name="FOCUS">
+    <category>
+      <pattern> IPAGPATULOY </pattern>      
+      <template>
+         <think><set name = "topic">FOCUS1</set></think>
+         Ang FOCUS ay acronym ng mga sumusunod(Mamili ng isang letra): <br/>F<br/> O<br/> C<br/> U<br/> S<br/>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> IBANG TANONG </pattern>      
+      <template>
+         <think><set name = "topic">*</set></think>
+         Ano ang bago niyong tanong?
+      </template>      
+   </category>
+</topic>
+
+<topic name="FOCUS1">
+   <category>
+      <pattern>F</pattern>      
+      <template>
+         <think><set name="topic">FOCUS1</set></think>         
+         Financial Value: Enhance the financial value of the Bank operations. (Maaring pumili ng ibang letra)
+      </template>      
+   </category>
+
+   <category>
+      <pattern>O</pattern>      
+      <template> 
+         <think><set name="topic">FOCUS1</set></think>        
+         Operational Excellence: Increase productivity while reducing costs. (Maaring pumili ng ibang letra)
+      </template>      
+   </category>
+
+   <category>
+      <pattern>C</pattern>      
+      <template>  
+         <think><set name="topic">FOCUS1</set></think>       
+         Customer Franchise: Increase customer base and reduce customer attrition. (Maaring pumili ng ibang letra)
+      </template>      
+   </category>
+
+   <category>
+      <pattern>U</pattern>      
+      <template>     
+         <think><set name="topic">FOCUS1</set></think>    
+         UnionBank Brand/Experience: Establish a unique brand image in strategic markets. (Maaring pumili ng ibang letra)
+     </template>
+ </category>
+ 
+   <category>
+      <pattern>S</pattern>      
+      <template>
+         <think><set name="topic">FOCUS1</set></think>         
+         Superior Innovation: Continue to offer innovative products and services. (Maaring pumili ng ibang letra)
+      </template>      
+   </category>
+</topic>
+
+   <category>
+      <pattern> FOCUS NG UNIONBANK </pattern>      
+      <template>
+         <srai>FOCUS</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern> CREDO </pattern>      
+      <template>
+         <think><set name = "topic">*</set></think>
+         Ang credo ng UnionBank ay: We are a dynamic and caring team of bold smart and engaged experts committed to make the difference for our customers shareholders community and UnionBankers by creating meaningful experiences and innovative services and solutions thereby converting our customers into advocates. We Make Da Diff!
+      </template>      
+   </category>
+
+   <category>
+      <pattern> CREDO NG UNIONBANK </pattern>      
+      <template>
+         <srai>CREDO</srai>
+      </template>      
+   </category>
+
+   <category>
+      <pattern>UNIONBANK DNA</pattern>      
+      <template>
+         Pili ka sa mga categorya ng <set name = "topic">UnionBank DNA</set>: <br/>PURPOSE<br/>VISION<br/>BRAND<br/>VALUES
+      </template>      
+   </category>
+   
+<topic name = "UnionBank DNA">
+   <category>
+      <pattern>PURPOSE</pattern>      
+      <template>         
+         Ayon sa UnionBank DNA ang purpose nito ay: To Make Da Diff by elevating lives and fulfilling dreams
+      </template>      
+   </category>
+
+   <category>
+      <pattern>VISION</pattern>      
+      <template>         
+         Ayon sa UnionBank DNA ang vision nito ay:To become one of the Top 3 universal banks in the Philippines by building a bank of enduring greatness
+      </template>      
+   </category>
+
+   <category>
+      <pattern>BRAND</pattern>      
+      <template>         
+          Promise: Smart Banking / Attributes: Expert and challenging convention
+      </template>      
+   </category>
+
+   <category>
+      <pattern>VALUES</pattern>      
+      <template>         
+         Magis: Do More Do Better Do Greater / Ubuntu: Engage community because a person becomes human only when he belongs.
+      </template>      
+   </category>
+</topic>
+
+   <category>
+      <pattern> ANO ANG * </pattern>   
+      <template>
+         <srai><star></star></srai>
+      </template>      
+   </category>
+</aiml>
