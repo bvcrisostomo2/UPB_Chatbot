@@ -1,0 +1,1 @@
+$("#chatlog").scrollTop($("#chatlog")[0].scrollHeight);
